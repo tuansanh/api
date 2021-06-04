@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-01T11:56:24 ICT" name="Suite" finished-at="2021-06-01T11:56:28 ICT" duration-ms="4333">
+    <groups>
+    </groups>
+    <test started-at="2021-06-01T11:56:24 ICT" name="FirstTest" finished-at="2021-06-01T11:56:28 ICT" duration-ms="4333">
+      <class name="com.seveneleven.features.promotion.Demo1Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seveneleven.features.promotion.Demo1Test@51dcb805]" started-at="2021-06-01T11:56:24 ICT" name="setUp" finished-at="2021-06-01T11:56:25 ICT" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkStatus(com.seveneleven.model.request.DataCSV)[pri:0, instance:com.seveneleven.features.promotion.Demo1Test@51dcb805]" started-at="2021-06-01T11:56:25 ICT" name="checkStatus" data-provider="test1FieldHappy" finished-at="2021-06-01T11:56:28 ICT" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataCSV(id=1, uom_id=1, quantity=3, promotion_id=11604, promotion_name=SanhTest123, store_id=2, amount_before=144000, discount_amount=48000, amount_after=96000)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="test1(com.seveneleven.model.request.DataCSV)[pri:0, instance:com.seveneleven.features.promotion.Demo1Test@51dcb805]" started-at="2021-06-01T11:56:28 ICT" name="test1" data-provider="test1FieldHappy" finished-at="2021-06-01T11:56:28 ICT" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DataCSV(id=1, uom_id=1, quantity=3, promotion_id=11604, promotion_name=SanhTest123, store_id=2, amount_before=144000, discount_amount=48000, amount_after=96000)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seveneleven.features.promotion.Demo1Test@51dcb805]" started-at="2021-06-01T11:56:28 ICT" name="setUp" finished-at="2021-06-01T11:56:28 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.seveneleven.features.promotion.Demo1Test -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- Suite -->
+</testng-results>

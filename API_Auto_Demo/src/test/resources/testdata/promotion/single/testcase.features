@@ -1,0 +1,45 @@
+Scenario : Test 1 field - Happy case
+	
+		Given user setups data to test
+		When user inputs "<quantity>" into 'quantity' field
+		And user inputs "<product o_u_m id>" into 'product_oum_id' field
+		Then user should see Product_ID, Promotion_ID, Promotion_Name same as data test
+		
+		Examples:
+			    | quantity  | product o_u_m id |
+			    | 3         | 3198   		   |
+
+Scenario : Test  1 field - UnHappy case
+		Given user setups data to test
+		When user inputs "<quantity>" to 'quantity' field
+		And user inputs "<product o_u_m id>" into 'product_oum_id' field
+		Then user should see Product_ID, Promotion_ID, Promotion_Name not same as data test
+		
+		Examples:
+			    | quantity  | product o_u_m id |
+			    | 3         | 3198   		   |
+
+		
+Scenario : Test more than 1 field - Happy case
+
+		Given user setups data to test
+		When user inputs "<quantity>" to 'quantity' field
+		And user inputs "<product o_u_m id>" into 'product_oum_id' field
+		Then user should see Product_ID, Promotion_ID, Promotion_Name same as data test
+		
+		Examples:
+			    | quantity  | product o_u_m id |
+			    | 3         | 3198   		   |
+			    | 3			| 6219			   |
+		
+		
+Scenario : Test more than 1 - UnHappy case
+		Given user setups data to test
+		When user inputs "<quantity>" to 'quantity' field
+		And user inputs "<product o_u_m id>" into 'product_oum_id' field
+		Then user should see Product_ID, Promotion_ID, Promotion_Name not same as data test
+		
+		Examples:			    	
+			    | quantity  | product o_u_m id |
+			    | 3         | 3198   		   |
+			    | 3			| 6219			   |

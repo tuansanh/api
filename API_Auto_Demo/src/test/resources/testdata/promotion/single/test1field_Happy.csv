@@ -1,0 +1,2 @@
+id,uom_id,quantity,promotion_id,promotion_name,store_id,amount_before,discount_amount,amount_after
+1,1,3,11604,SanhTest123,2,144000,48000,96000
